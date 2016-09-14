@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "build flash message"
   spec.description   = "support to build flash and message with the atlassian style"
-  spec.homepage      = "https://rubygems.org/gems/aui_flash"
+  spec.homepage      = "https://github.com/duet-ngyen/aui_flash"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
