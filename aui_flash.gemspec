@@ -9,18 +9,18 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Duyet Nguyen"]
   spec.email         = ["duyet.vn@gmail.com"]
 
-  spec.summary       = "summary"
-  spec.description   = "description"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "build flash message"
+  spec.description   = "support to build flash and message with the atlassian style"
+  spec.homepage      = "https://rubygems.org/gems/aui_flash"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
-  end
+  # if spec.respond_to?(:metadata)
+  #   spec.metadata['allowed_push_host'] = "https://rubygems.org/gems/aui_flash"
+  # else
+  #   raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
+  # end
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
