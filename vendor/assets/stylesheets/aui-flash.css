@@ -1,0 +1,128 @@
+.aui-message {
+    background: #fff;
+    border-top: 1px solid #3572b0;
+    border-right: 1px solid #3572b0;
+    border-bottom: 1px solid #3572b0;
+    border-left: 1px solid #3572b0;
+    border-radius: 3px;
+    color: #333;
+    line-height: 20px;
+    margin: 20px 0 0 0;
+    overflow-wrap: break-word;
+    padding-left: 60px;
+    padding-right: 40px;
+    position: relative;
+    word-wrap: break-word;
+    word-break: break-word;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+}
+
+.aui-message:before {
+    background-color: #3572b0;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40px;
+}
+
+.aui-message:after {
+    color: #fff;
+    font-family: Atlassian Icons;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: 400;
+    left: 12px;
+    line-height: 1;
+    margin-top: -8px;
+    position: absolute;
+    speak: none;
+    top: 50%;
+    content: url("icons/messages/icon-generic-white.png");
+}
+
+/* Messege warning */
+.aui-message-warning, .aui-message.warning {
+    background: #fff;
+    border-color: #f6c342;
+    color: #333;
+}
+
+.aui-message-warning:before, .aui-message.warning:before {
+    background-color: #f6c342;
+}
+
+.aui-message-warning:after, .aui-message.warning:after {
+    content: url("icons/messages/icon-warning-grey.png");
+}
+
+
+/* Messege errors */
+.aui-message-error, .aui-message.error {
+    background: #fff;
+    border-color: #d04437;
+    color: #333;
+}
+
+.aui-message-error:before, .aui-message.error:before {
+    background-color: #d04437;
+}
+
+.aui-message-error:after, .aui-message.error:after {
+    content: url("icons/messages/icon-error-white.png");
+}
+
+/* Message success */
+.aui-message-success, .aui-message.success {
+    background: #fff;
+    border-color: #8eb021;
+    color: #333;
+}
+
+.aui-message-success:before, .aui-message.success:before {
+    background-color: #8eb021;
+}
+
+.aui-message-success:after, .aui-message.success:after {
+    content: url("icons/messages/icon-success-white.png");
+}
+
+/* Message hint */
+.aui-message-hint, .aui-message-info, .aui-message.hint, .aui-message.info {
+    background: #fff;
+    border-color: #3572b0;
+    color: #333;
+}
+
+.aui-message-hint:before, .aui-message-info:before, .aui-message.hint:before, .aui-message.info:before {
+    background-color: #3572b0;
+}
+
+.aui-message-hint:after, .aui-message-info:after, .aui-message.hint:after, .aui-message.info:after {
+    content: url("icons/messages/icon-generic-white.png");
+}
+
+.aui-message p.title {
+    font-weight: 700;
+}
+
+
+/* Close icon */
+.aui-message.closeable .icon-close {
+    cursor: pointer;
+    left: auto;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.icon-close {
+    opacity: 1;
+    background: url("icons/messages/icon-close.png") no-repeat center;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
