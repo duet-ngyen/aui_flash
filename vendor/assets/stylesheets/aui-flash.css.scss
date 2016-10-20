@@ -43,7 +43,7 @@
     position: absolute;
     speak: none;
     top: 50%;
-    content: url("icons/messages/icon-generic-white.png");
+    content: image-url("icons/messages/icon-generic-white.png");
 }
 
 /* Messege warning */
@@ -58,7 +58,7 @@
 }
 
 .aui-message-warning:after, .aui-message.warning:after {
-    content: url("icons/messages/icon-warning-grey.png");
+    content: image-url("icons/messages/icon-warning-grey.png");
 }
 
 
@@ -74,7 +74,7 @@
 }
 
 .aui-message-error:after, .aui-message.error:after {
-    content: url("icons/messages/icon-error-white.png");
+    content: image-url("icons/messages/icon-error-white.png");
 }
 
 /* Message success */
@@ -89,7 +89,7 @@
 }
 
 .aui-message-success:after, .aui-message.success:after {
-    content: url("icons/messages/icon-success-white.png");
+    content: image-url("icons/messages/icon-success-white.png");
 }
 
 /* Message hint */
@@ -104,7 +104,7 @@
 }
 
 .aui-message-hint:after, .aui-message-info:after, .aui-message.hint:after, .aui-message.info:after {
-    content: url("icons/messages/icon-generic-white.png");
+    content: image-url("icons/messages/icon-generic-white.png");
 }
 
 .aui-message p.title {
@@ -123,7 +123,7 @@
 
 .icon-close {
     opacity: 1;
-    background: url("icons/messages/icon-close.png") no-repeat center;
+    background: image-url("icons/messages/icon-close.png") no-repeat center;
     width: 20px;
     height: 20px;
     text-align: center;
